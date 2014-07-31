@@ -1885,6 +1885,9 @@ a.transportes {
 	.field-type-geofield {
 		display:none;
 	}	
+	.half img{
+		margin:-10px 0px -10px 0px !important;
+	}
 }
 
 @media only screen and (min-width: 40.063em) and (max-width: 64em) { 
