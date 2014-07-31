@@ -67,11 +67,11 @@
 }
 
 .field-name-share {
-	rgba(89,115,3,0.5) !important
+	rgba(89,115,3,0.5) !important;
 }
 
 .explora {
-	/* color: #ff9e00; //defecto */
+	color: rgb(255, 158, 0);
 }
 
 .portal {
@@ -80,8 +80,12 @@
 }
 
 .guara {
-	color: rgb(89,115,3) !important;
+	color: rgb(255, 158, 0) !important;
 	/*color del portal lleva imagen de HondurasGuara*/
+}
+
+.guara .span {
+	background:url("https://s3-sa-east-1.amazonaws.com/canaturh/logos/marca1.png") !important;
 }
 
 .block-views-relaciones-block {
@@ -638,7 +642,7 @@ h4, h3, h5, .title {
 
 
 .cuerpo {
-	background: #EDDED3;
+	background-color: rgba(234, 247, 255,0.5);
 	padding: 1.2rem;
 	min-height: 26.5rem; /* add responsive for height */
 	margin-bottom: 1rem;

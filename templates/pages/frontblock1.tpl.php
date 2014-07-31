@@ -18,10 +18,10 @@ if($language_content->language == "es"){
 				<?php if($language_content->language == "en"): ?>
 					<h2 class="front-title"><span class="explora"><?php print t("Diverse") ?></span> <span class="portal">Tegucigalpa</span></h2>
 				<?php else: ?>
-					<h2 class="front-title"><span class="portal">Tegucigalpa</span> <span class="explora"><?php print t("Diverse") ?></span></h2>
+					<h2 class="front-title"><span class="portal">Tegucigalpa</span> <span class="explora"><?php print t("diverse") ?></span></h2>
 				<?php endif ?>
 				<div>
-					<h5 class="guara"><?php print t("The Center of <span>Hondura's</span>") ?></h5>
+					<h5 class="guara"><?php print t("the center of <span>Hondura's</span>") ?></h5>
 				</div>
 				
 					<div class="img-h h"><a title="<?php print t("Hotels") ?>" href="<?php print $hotels ?>">Hotel</a></div>
