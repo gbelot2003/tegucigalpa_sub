@@ -2,10 +2,14 @@
     <div class="row">	
 		<div class="large-12 columns logos-images">
 			<div class="row">
-				<div class="large-3 medium-6 small-12 columns">
+				<div class="large-1 medium-6 small-12 columns">
 					<ul class="logos-li">
 						<li class="premium"><a class="canaturh" href="#">Canaturh</a></li>
-						<li class="premium"><a class="iht" href="#">IHT</a></li>
+					</ul>
+				</div>
+				<div class="large-2 medium-6 small-12 columns">
+					<ul class="logos-li">	
+						<li class="lpremium"><a class="iht" href="#">IHT</a></li>
 					</ul>
 				</div>
 				<div class="large-2 medium-6 small-12 columns">
