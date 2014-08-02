@@ -113,24 +113,33 @@
 }
 
 
+/*****************************************************LOGOS***************************************/
 .canaturh {
 	background: url('https://s3-sa-east-1.amazonaws.com/canaturh/logos/logos_icos.jpg') center left ;
 }
 
 .iht {
-	background: url('https://s3-sa-east-1.amazonaws.com/canaturh/logos/logos_icos.jpg') -100px -12px;
+	background: url('https://s3-sa-east-1.amazonaws.com/canaturh/logos/logos_icos.jpg') -100px -0px;
 }
 
 .usaid {
-	background: url('https://s3-sa-east-1.amazonaws.com/canaturh/logos/logos_icos.jpg')  -200px -62px;
+	background: url('https://s3-sa-east-1.amazonaws.com/canaturh/logos/logos_icos.jpg')  -300px -0px;
 }
 
 .nwt {
-	background: url('https://s3-sa-east-1.amazonaws.com/canaturh/logos/logos_icos.jpg')  -200px -5px;
+	background: url('https://s3-sa-east-1.amazonaws.com/canaturh/logos/logos_icos.jpg')  -300px -40px;
+}
+
+.imc {
+	background: url('https://s3-sa-east-1.amazonaws.com/canaturh/logos/logos_icos.jpg')  -505px -0px;
+}
+
+.divesa {
+	background: url('https://s3-sa-east-1.amazonaws.com/canaturh/logos/logos_icos.jpg')  -505px -51px;
 }
 
 .patrocinador {
-	background: url('https://s3-sa-east-1.amazonaws.com/canaturh/logos/logos_icos.jpg')  -400px -5px;
+	background: url('https://s3-sa-east-1.amazonaws.com/canaturh/logos/logos_icos.jpg')  -680px -0px;
 }
 
 /**********************************************/
@@ -1618,7 +1627,7 @@ a.transportes {
 }
 
 .blog-slide .active .views-field-title {
-	color: red;
+	color: blue;
 }
 
 .es-ticker{
@@ -1724,6 +1733,10 @@ a.transportes {
 	background: url("../images/marca1.png") no-repeat right bottom;
 	width: 195px;
 	margin-top: -50px;
+}
+
+.single{
+	font-weight: bold;
 }
 
 .slider-name-single {
@@ -1868,38 +1881,108 @@ a.transportes {
 .monop {padding-top:0.9em;}
 .bigs {border-right: 1px solid silver;}
 
+/****************************************SPONSORS*************************************/
+
 .logos-li{
 }
 
-.premium {
+.sponsor {
+		list-style: none !important;
+}
+
+.sponsor a {
+	width: 165px;
+	height:0px;
+	padding-top:50px;
+}
+
+.sponsor1 {
+	width:298px;
+	float:left;
+}
+
+.sponsor1 li {
 	list-style:none !important;
 	display:inline;
 	float:left;
-	margin-right: 33px;
+}
+
+.sponsor1 a {
+	display: block;
+	overflow:hidden;
+}
+
+.sponsor2 {
+	width:198px;
+	float:left;
+}
+
+.sponsor2 li {
+	list-style:none !important;
+	float:left;
+}
+
+.sponsor2 a {
+	display: block;
+	overflow:hidden;
+}
+
+.sponsor3 {
+	width:165px;
+	float:left;
+}
+
+.sponsor3 li {
+	list-style:none !important;
+	float:left;
+}
+
+.sponsor3 a {
+	display: block;
+	overflow:hidden;
+}
+
+.premium {
+
 }
 
 .premium a {
-	display: block;
 	width: 100px;
 	height:0px;
 	padding-top:96px;
-	overflow:hidden;
 }
 
-.sponser {
-	list-style:none !important;
-	display:inline;
-} 
+.lpremium {
+	list-style: none !important;
+}
 
-.sponser a {
-	display: block;
-	width: 200px;
+.lpremium a {
+	width: 198px;
 	height:0px;
-	padding-top:50px;
-	overflow:hidden;
+	padding-top:96px;
 }
 
-/**************** Media querys *******************/
+.lpremium-2 {
+	list-style: none !important;
+}
+
+.lpremium-2 a {
+	width: 198px;
+	height:0px;
+	padding-top:40px;
+}
+
+.lpremium-3 {
+	list-style: none !important;
+}
+
+.lpremium-3 a {
+	width: 198px;
+	height:0px;
+	padding-top:60px;
+}
+
+/****************************************END SPONSORS*************************************/
 
 @media only screen and (max-width: 40em) { 
 	.l-slider {
