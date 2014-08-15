@@ -82,6 +82,7 @@
 .guara {
 	color: rgb(255, 158, 0) !important;
 	/*color del portal lleva imagen de HondurasGuara*/
+	font-family: Hondurean !important;
 }
 
 .guara .span {
@@ -111,7 +112,6 @@
 	width:800px;
 	height:600px;
 }
-
 
 /*****************************************************LOGOS***************************************/
 .canaturh {
@@ -193,6 +193,10 @@ fieldset {
 	margin-top: 0;
 }
 
+
+h1, h2, h3, h4, h5 {
+	font-family: Hondurean;
+}
 
 .top-bar .name h1 a {
 	display: inline-block;
@@ -285,7 +289,7 @@ fieldset {
 /***********************************/
 
 .node-atracciones-turisticas ul.links li {
-
+	
 }
 
 .geofieldIn .field-name-field-geolocalizacion {
@@ -622,22 +626,6 @@ fieldset {
 /**************************************************/
 
 
-@media (max-width: 1024px) {
-	.top-bar {
-		height: 65px;
-	}
-	.top-bar .name {
-		height: 65px;
-	}
-	.top-bar .name h1 a {
-		width: 15rem;
-	}
-	
-	.front .view-display-id-block_2 {
-		margin-top: 4.5rem !important;
-	}
-}
-
 h4, h3, h5, .title {
 	font-family: Hondurean;
 }
@@ -653,7 +641,7 @@ h4, h3, h5, .title {
 .fixed, .fixed .top-bar {
 	background:rgb(245,245,245);
 }
-/**************** Clases Generias *****************/
+/**************** Clases Genericas *****************/
 
 
 .cuerpo {
@@ -932,7 +920,7 @@ h4, h3, h5, .title {
 .ui-tabs .ui-tabs-nav li {border-bottom: none; background-color: white !important; }
 .ui-tabs .ui-tabs-nav li a {color:black; border-radius: 5px 5px 0 0; font-size: 1em !important;}
 .ui-tabs .ui-tabs-nav li a:hover {color: red;}
-.ui-tabs .ui-tabs-nav li.ui-state-active  a {color: red; background-color:#E7F0D7;}
+.ui-tabs .ui-tabs-nav li.ui-state-active  a {color: red; background-color:#f4fafe;}
 .ui-tabs .ui-tabs-nav li.ui-tabs-selected {}
 
 .ui-tabs .ui-tabs-nav li.ui-tabs-selected a, 
@@ -940,13 +928,13 @@ h4, h3, h5, .title {
 .ui-tabs .ui-tabs-nav li.ui-state-processing a {border-bottom: 1px solid #c0c0c0; color:red; background:#D8D0CD;}
 
 .ui-tabs .ui-tabs-nav li a, .ui-tabs.ui-tabs-collapsible .ui-tabs-nav li.ui-tabs-selected a {} /* first selector in group seems obsolete, but required to overcome bug in Opera applying cursor: text overall if defined elsewhere... */
-.ui-tabs .ui-tabs-panel {background-color:#E7F0D7; padding: 2em 2.4em; color:black; min-height: 26rem;} /*add responsive for heigth*/
+.ui-tabs .ui-tabs-panel {background-color:#f4fafe; padding: 2em 2.4em; color:black; min-height: 26rem;} /*add responsive for heigth*/
 
 .ui-corner-all, .ui-corner-bottom, .ui-corner-right, .ui-corner-br {
 	border-bottom-right-radius: 0;
 	border-bottom-left-radius:0;
 }
-
+	
 /**********************************************************************/
 
 .flex-direction-nav a:before {
@@ -1502,11 +1490,19 @@ a.transportes {
 }
 
 /************ iconos *************************/
+.icons { /** clase para icono de video */
+	position: absolute;
+	bottom: 107px;
+ 	right: 44%;
+ 	font-size: 5rem;
+}
+
 .slide-ico {
 	position: absolute;
 	bottom: 10px;
 	right: 91%;
 }
+
 
 .icos {
 	display: block;
@@ -1737,7 +1733,7 @@ a.transportes {
 .guara span {
 	display:inline-block;
 	height:0px;
-	padding-top:80px;
+	padding-top:100px;
 	overflow:hidden;
 	background: url("../images/marca1.png") no-repeat right bottom;
 	width: 195px;
@@ -1993,6 +1989,8 @@ a.transportes {
 
 /****************************************END SPONSORS*************************************/
 
+/**************** Media querys *******************/
+
 @media only screen and (max-width: 40em) { 
 	.l-slider {
 		display:none;
@@ -2022,11 +2020,49 @@ a.transportes {
 	.half img {
 		margin:-10px 0px -10px 0px !important;
 	}
+/******************************* FIX RESPONSIVE FOR IPAD - TABLET *******************************/	
+
+	.sponsor1, .sponsor2, .sponsor3 {
+	width:100%;
+	float:none;
+	text-align: -webkit-center;
+	}
+
+	.premium, .lpremium, .lpremium-2, .lpremium-3, .sponsor {
+	width:100%;
+	}
 }
 
 @media only screen and (min-width: 40.063em) and (max-width: 64em) { 
 
+	.sponsor1, .sponsor2, .sponsor3 {
+	width:100%;
+	float:none;
+	text-align: -webkit-center;
+	}
+
+	.premium, .lpremium, .lpremium-2, .lpremium-3, .sponsor {
+	width:50%;
+	}	
+	
 } /* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
 
 
+
+@media (max-width: 940px) {
+	.top-bar {
+		height: 65px;
+	}
+	.top-bar .name {
+		height: 65px;
+	}
+	.top-bar .name h1 a {
+		width: 15rem;
+	}
+	
+	.front .view-display-id-block_2 {
+		margin-top: 4.5rem !important;
+	}
+}
+/******************************* END FIX RESPONSIVE FOR IPAD - TABLET *******************************/
 
